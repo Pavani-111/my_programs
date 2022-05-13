@@ -9,6 +9,7 @@ void main()
 	{
 		if(a & (1 << i))
 		{
+			printf("changed")
 			count++;
 		}
 		else if(count % 2 == 0 && count != 0)
